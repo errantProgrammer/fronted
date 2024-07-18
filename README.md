@@ -1,7 +1,7 @@
-# Fronted Developer
+# Fronted proyects
 
-Este repositorio esta conformado de mis anotaciones personales de mi aprendizaje, sobre el desarrollo web.
+En este repositorio va a contener pequeños proyetos que voy realizando para poner en practica mi aprendizaje de:
 
-## Roadmap
-
-El camino que voy a estar siguiendo es el que nos proporciona la pagina [roadmap](https://roadmap.sh/frontend)
+- HTML
+- CSS
+- JavaScript

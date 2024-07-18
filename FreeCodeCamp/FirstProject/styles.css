@@ -1,0 +1,100 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #87ceeb;
+    background-image: linear-gradient(
+            115deg,
+            /* rgba(0.53, 0.81, 0.98, 0.8),
+            rgba(0.53, 0.81, 0.92, 0.7) */
+                rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)
+        ),
+        url("https://w.wallhaven.cc/full/2k/wallhaven-2k9yvx.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1,
+p {
+    text-align: center;
+    color: snow;
+}
+
+p {
+    font-style: italic;
+}
+
+.form-free-code-camp {
+    width: 700px;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: midnightblue;
+    opacity: 80%;
+}
+
+.form-free-code-camp * {
+    font-family: sans-serif;
+}
+
+.question-form {
+    padding: 15px 35px;
+}
+
+.question,
+.question-checkbox {
+    font-size: 18px;
+    display: block;
+    color: snow;
+    margin-bottom: 10px;
+}
+
+.answer {
+    display: block;
+    border-radius: 7.5px;
+    padding: 5px 5px;
+    width: 100%;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.answer-radio {
+    color: snow;
+    display: block;
+    margin: 3px;
+    color: snow;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+
+.question-checkbox {
+    font-size: 16px;
+}
+
+.input-textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: none;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    background-color: greenyellow;
+    padding: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
