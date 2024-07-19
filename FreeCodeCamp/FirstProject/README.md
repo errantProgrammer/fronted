@@ -1,26 +1,26 @@
-# Crea un formulario de encuesta
+<h1 align="center">Build a Survey Form </h1>
 
-Objetivo: Construye una aplicación que sea funcionalmente similar a https://survey-form.freecodecamp.rocks. No copies este proyecto de demostración.
+Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks. Do not copy this demo project.
 
-Historias de usuario:
+User Stories:
 
-- [x] Debes tener un título de página en un elemento h1 con un id de title
-- [x] Debes tener una corta explicación en el elemento p con un id de description
-- [x] Debes tener un elemento form con un id de survey-form
-- [x] Dentro del elemento form, debe ser required (requerido) ingresar tu nombre en un campo de input que tenga un id de name y un type de text
-- [ ] Dentro del elemento form required (requerido) ingresar tu nombre en un campo de input que tenga un id de email
-- [ ] Si ingresas un email que no tenga el formato correcto, verás un error de validación HTML5
-- [ ] Dentro del formulario, puedes ingresar un número en un campo de input que tenga un id de number
-- [ ] La entrada de números no debe aceptar caracteres no numéricos, ya sea impidiendo que los escribas o mostrando un error de validación HTML5 (dependiendo del navegador).
-- [ ] Si ingresas un número que esté fuera del rango de números permitido, que es definido por los atributos min y max, verás un error de validación de HTML5
-- [ ] Para los campos de entrada de nombre, email y número, puedes ver los correspondientes elementos label en el formulario, que describen el propósito de cada campo con los siguientes id: id="name-label", id="email-label" y id="number-label"
-- [ ] Para los campos de entrada de nombre, email y número, podrás ver un texto provisional que da una descripción o instrucciones para cada campo
-- [ ] Dentro del elemento form, debes tener un elemento desplegable select con un id de dropdown con al menos dos opciones para elegir
-- [ ] Dentro del elemento form, puedes seleccionar una opción de un grupo de al menos dos botones de radio que son agrupado utilizando el atributo name
-- [ ] Dentro del elemento form, puedes seleccionar varios campos en una serie de casillas de verificación, cada una debe tener un atributo value
-- [ ] Dentro del elemento form, se te presenta un textarea para comentarios adicionales
-- [ ] Dentro del elemento form, se te presenta un botón con un id de submit para enviar todas las entradas
+- [X] You should have a page title in an h1 element with an id of title
+- [X] You should have a short explanation in a p element with an id of description
+- [X] You should have a form element with an id of survey-form
+- [X] Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text
+- [X] Inside the form element, you are required to enter your email in an input field that has an id of email
+- [X] If you enter an email that is not formatted correctly, you will see an HTML5 validation error
+- [X] Inside the form, you can enter a number in an input field that has an id of number
+- [X] The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser).
+- [X] If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error
+- [X] For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label"
+- [X] For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
+- [X] Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from
+- [X] Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute
+- [X] Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute
+- [X] Inside the form element, you are presented with a textarea for additional comments
+- [X] Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
-Completa las historias de usuario y pasa todas las pruebas a continuación para completar este proyecto. Dale tu propio estilo personal. ¡Feliz día programando!
+Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
 
-Nota: Asegurate de agregar <link rel="stylesheet" href="styles.css"> en tu HTML para enlazar tu hoja de estilos y aplicar tu CSS
+Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS
