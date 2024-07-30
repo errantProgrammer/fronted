@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation C++</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Documentación C++</header>
+      <ul>
+        <li><a href="#Introducción_C++" class="nav-link">Introducción C++</a></li>
+        <li><a href="#Sintaxis_Básica" class="nav-link">Sintaxis Básica</a></li>
+        <li><a href="#Programación_Orientada_a_Objetos" class="nav-link">Programación Orientada a Objetos</a></li>
+        <li><a href="#Funciones_y_Plantillas" class="nav-link">Funciones y Plantillas</a></li>
+        <li><a href="#Manejo_de_Excepciones" class="nav-link">Manejo de Excepciones</a></li>
+        <li><a href="#Entrada_y_Salida" class="nav-link">Entrada y Salida</a></li>
+        <li><a href="#Memoria_Dinámica" class="nav-link">Memoria Dinámica</a></li>
+        <li><a href="#Biblioteca_Estándar_de_C++" class="nav-link">Biblioteca Estándar de C++</a></li>
+        <li><a href="#Concurrencia" class="nav-link">Concurrencia</a></li>
+        <li><a href="#Compilación_y_Enlace" class="nav-link">Compilación y Enlace</a></li>
+        <li><a href="#Referencia" class="nav-link">Referencia</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section id="Introducción_C++" class="main-section">
+        <header>Introducción C++</header>
+        <p><span>Historia: </span>C++ fue desarrollado por Bjarne Stroustrup en los años 80 como una extensión del
+        lenguaje C, añadiendo soporte para la programación orientada a objetos.</p>
+        <p><span>Caracteristicas: </span>C++ es un lenguaje de programación de propósito general que combina
+        características de programación procedimental, orientada a objetos y genérica.</p>
+      </section>
+      <section id="Sintaxis_Básica" class="main-section">
+        <header>Sintaxis Básica</header>
+        <p><span>Variables: </span>Soporta tipos básicos como:
+          <ul>
+            <li>int</li>
+            <li>char</li>
+            <li>float</li>
+            <li>double</li>
+          </ul>
+        </p>
+        <pre>
+        <code>
+        int variable_entera;
+        char caracter;
+        </code>
+        </pre>
+        <p><span>Operadores: </span>Incluye operadores aritméticos, lógicos, de comparación, y bit a bit.</p>
+        <p><span>Control de Flujo: </span>Usa estructuras de control como:
+          <ul>
+            <li>if</li>
+            <li>else</li>
+            <li>switch</li>
+            <li>for</li>
+            <li>while</li>
+            <li>do-while</li>
+          </ul>
+        </p>
+      </section>
+      <section id="Programación_Orientada_a_Objetos" class="main-section">
+        <header>Programación Orientada a Objetos</header>
+        <p><span>Clases y Objetos: </span>Permite definir clases que encapsulan datos y funciones. Los objetos son instancias estas clases.</p>
+        <p><span>Herencia: </span>Facilita la creación de nuevas clases basadas en clases existentes, permitiendo la
+        reutilización del código.</p>
+        <p><span>Polimorfismo: </span>Permite que funciones y métodos tengan diferentes comportamientos basados en el tipo de
+        objeto que las invoca.</p>
+        <p><span>Encapsulamiento: </span>Protege los datos internos de una clase y sólo permite el acceso a través de métodos
+        públicos.</p>
+      </section>
+      <section id="Funciones_y_Plantillas" class="main-section">
+        <header>Funciones y Plantillas</header>
+        <p><span>Funciones: </span>Se definen con un tipo de retorno, nombre y parámetros. Soporta funciones sobrecargadas y funciones inline.</p>
+        <p><span>Platillas: </span>Permiten escribir código genérico que puede trabajar con cualquier tipo de datos. Incluye plantillas de funciones y plantillas de clases.</p>
+        <pre>
+        <code>
+        tipo-de-retorno nombre-de-la-funcion( parametros ){
+          //code...;
+        }
+        </code>
+        </pre>
+      </section>
+      <section id="Manejo_de_Excepciones" class="main-section">
+        <header>Manejo de Excepciones</header>
+        <p><span>Try-Catch: </span>Utiliza bloques <strong>try</strong>, <strong>catch</strong> para manejar errores y excepciones de manera segura y controlada.</p>
+        <pre>
+        <code>
+        try{
+          //code...
+        }catch(tipo-de-excepcion){
+          //code...
+        }
+        </code>
+        </pre>
+      </section>
+      <section id="Entrada_y_Salida" class="main-section">
+        <header>Entrada y Salida</header>
+        <p>
+        <span>Streams: </span>Usa flujos (<strong>streams</strong>) para manejar operaciones de entrada y salida:
+        <ul>
+          <li>cin</li>
+          <li>cout</li>
+          <li>cerr</li>
+          <li>clog</li>
+          <li>ofstream/ifstream</li>
+        </ul>
+        </p>
+        <pre>
+        <code>
+        cout << "Hola, Mundo" << end;
+        </code>
+        </pre>
+      </section>
+      <section id="Memoria_Dinámica" class="main-section">
+        <header>Memoria Dinámica</header>
+        <p>
+          <span>Asignación Dinámica: </span>Usa <strong>new</strong>, <strong>delete</strong> para gestionar memoria en tiempo de ejecución. Incluye punteros y referencias.
+        </p>
+        <p>
+        <span>RAII(Resource Acquisition Is Initialization): </span>Técnica para manejar recursos como la memoria a través del ciclo de vida de los objetos.
+        </p>
+      </section>
+      <section id="Biblioteca_Estándar_de_C++" class="main-section">
+        <header>Biblioteca Estándar de C++</header>
+        <p>
+          <span>Contenedores: </span>Ofrece estructuras de datos como
+            <strong>vector</strong>, <strong>list</strong>, <strong>map</strong>, <strong>set</strong>.
+        </p>
+        <p>
+        <span>Algoritmos: </span>Incluye funciones para realizar operaciones comunes como ordenación y búsqueda.
+        </p>
+        <p>
+        <span>Iteradores: </span>Permite recorrer y manipular elementos en contenedores de manera uniforme.
+        </p>
+        <pre>
+        <code>
+        std::vector&ltT&gt nombre-de-la-variable;
+        std::sort(nombre-de-la-variable.begin(), nombre-de-la-variable.end(), condition-sort());
+        </code>
+        </pre>
+      </section>
+      <section id="Concurrencia" class="main-section">
+        <header>Concurrencia</header
+        <p>
+          <span>Hilos: </span>Soporta la programación concurrente a través de la biblioteca estándar de hilos
+          (<strong>std::thread</strong>).
+        </p>
+        <p>
+        <span>Sincronizacion: </span>Proporciona mecanismos como mutexes y locks para gestionar el acceso concurrente a recursos compartidos
+        </p>
+      </section>
+      <section id="Compilación_y_Enlace" class="main-section">
+        <header>Compilación y Enlace</header>
+        <p>
+        <span>Compiladores: </span>Herramientas como GCC, Clang y MSVC son comunes para compilar programas C++.
+        </p>
+        <p>
+        <span>Enlace: </span>Proceso de combinar múltiples archivos objeto en un ejecutable.
+        </p>
+      </section>
+      <section id="Referencia" class="main-section">
+        <header>Referencia</header>
+        <ul>
+          <li>Para mayor información sobre C++, la encuentran en la siguiente págaina <a href="https://en.cppreference.com/w/" alt="link to cppreference">C++ Reference</a></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
