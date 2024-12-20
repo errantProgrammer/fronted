@@ -1,0 +1,9 @@
+#+TITLE: Notas de Javascript
+#+AUTHOR: errantProgrammer
+#+TOC: 3
+
+* Javascript
+
+Es un lenguaje de programacion utilizado principalmente para la web
+
+* Variables
